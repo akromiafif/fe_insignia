@@ -31,6 +31,7 @@ const Channel = () => {
         {channels.map((item, index) => {
           return (
             <div
+              key={index}
               className="h-44 w-full border-2 border-secondary bg-secondary p-4 flex justify-end flex-col relative cursor-pointer"
               onMouseOver={() => {
                 setIsHover(true);

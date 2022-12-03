@@ -54,6 +54,7 @@ const Activity = () => {
         {activites.map((item, index) => {
           return (
             <div
+              key={index}
               className="relative"
               onMouseOver={() => {
                 setIsHover(true);
