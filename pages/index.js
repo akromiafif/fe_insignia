@@ -1,5 +1,6 @@
 import Activity from "../components/Activity";
 import BreadCrumbs from "../components/BreadCrumbs";
+import Channel from "../components/Channel";
 import Documents from "../components/Documents";
 import Header from "../components/Header";
 import People from "../components/People";
@@ -16,7 +17,7 @@ export default function Home() {
       </div>
       <div className="w-full flex flex-row space-x-4">
         <People />
-        <Activity />
+        <Channel />
       </div>
       <div className="w-full flex flex-row space-x-4">
         <Documents />

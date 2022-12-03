@@ -13,7 +13,7 @@ const Type = {
 
 const People = () => {
   return (
-    <div className="w-8/12 flex flex-row space-x-4 ">
+    <div className="w-8/12 flex flex-row space-x-4">
       <div className="flex flex-col w-8/12 space-y-4">
         <VideoHeader type="People" title="View all" />
         <VideoBig
@@ -26,7 +26,7 @@ const People = () => {
           <VideoSmall name="Lutfi Wira" views="4567" type={Type.PEOPLE} />
         </div>
       </div>
-      <div className="flex flex-col w-4/12 justify-end space-y-4">
+      <div className="flex flex-col w-4/12 space-y-4 py-[3.2rem]">
         <VideoSmall name="Afif Akromi" views="7854" type={Type.PEOPLE} />
         <VideoSmall name="Denny Wiranda" views="9083" type={Type.PEOPLE} />
         <VidoeIcon

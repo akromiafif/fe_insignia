@@ -40,7 +40,7 @@ const Activity = () => {
     },
   ];
   return (
-    <div className="w-4/12 flex flex-col space-y-6">
+    <div className="w-4/12 flex flex-col space-y-4">
       <div className="flex flex-row justify-between items-end">
         <p className="text-secondary text-3xl">Activity</p>
         <div className="flex flex-row">
